@@ -30,6 +30,9 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
+#solution input{
+    font-size: 20px;
+}
 #solution .line {
     width: 875px;
     margin: 0 auto;
