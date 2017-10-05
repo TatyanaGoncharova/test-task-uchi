@@ -1,0 +1,51 @@
+#solution {
+    margin: 0 auto;
+}
+#solution .equation {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 24px;
+}
+#solution .equation >div {
+    padding:4px;
+    font-size: 24px;
+}
+#solution .bad {
+    color: #f00;
+}
+#solution .yellowColor {
+    background-color: #ffff00;
+    border-radius: 3px;
+}
+#solution .nextStep {
+    display: none;
+}
+#solution .inputThird {
+    position: relative;
+    top: -1px;
+}
+#solution .canvasImg {
+    background-image: url("img/sprite.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#solution .line {
+    width: 875px;
+    margin: 0 auto;
+    position: relative;
+}
+#solution .line > div {
+    position: absolute;
+    font-size: 24px;
+    z-index: 999;
+}
+#solution .arrow {
+    position:absolute;
+    display: inline-block;
+    width: 13px;
+    height:13px;
+    border: solid transparent;
+    border-width: 0 4px 4px 0;
+    transform: rotate(-3deg);
+}
